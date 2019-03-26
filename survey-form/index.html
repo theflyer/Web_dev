@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  
+  
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html> 
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <div id="form">
+      <p id="description">This is a survey about Tallgrass Burger Restaurant. Please take the survey and help us to improve us.</p>
+      <form id="survey-form">
+       
+        <div>
+        <div class="left-side"> 
+          <label id="name-label">* Name:</label>
+        </div>
+        <div class="right-side">
+          <input autofocus type="text" id="name" placeholder="Enter your name" required>
+         </div>
+        </div> <br>
+        
+        <div>
+        <div class="left-side"> 
+          <label id="email-label">* Email:</label>
+        </div>
+        <div class="right-side">
+          <input autofocus type="email" id="email" placeholder="Enter your email" required>
+         </div>
+        </div>
+        <div> <br>
+          
+        <div class="left-side"> 
+          <label id="number-label">* Age:</label>
+        </div>
+        <div class="right-side">
+          <input autofocus type="number" id="number" placeholder="Enter your age" min ='1' max='135'>
+          </div>
+        </div> <br>
+        
+        <div>
+          <div class="left-side">
+            <label>what is your current role:</label>
+          </div>
+          <div class="right-side">
+            <select id ="dropdown">
+              <option disabled selected value>Select an option</option>
+            <option value="student">Student</option>
+            <option value="fulltime">Full time job</option>
+            <option value="part-time">Part time job</option>
+            <option value="other">other</option>
+           </select>
+          </div>
+        </div>
+        <br>
+        
+        
+        <div>
+          <div class="left-side">
+            <label>How likely is that you recommend our restaurent:</label>
+          </div>
+          <div class="right-side">
+           
+            <li class = "liststyle"><label id="button-name"><input type="radio" name="radio-buttons" value="definitly" class="userRatings"> Definetly</label></li>
+    
+                      <li class = "liststyle"><label id="button-name"><input type="radio" name="radio-buttons" value="most-likely" class="userRatings"> Most likely</label></li>
+            
+         <li class = "liststyle"><label id="button-name"><input type="radio" name="radio-buttons" value="never" class="userRatings"> never</label></li>
+            
+    </div>
+        </div>
+          <br>
+          <div>
+          <div class="left-side">
+            <label>what do you most like in our restaurent: </label>
+          </div>
+          <div class="right-side">
+           <select id ="dropdown">
+             <option disabled selected value>Select an option</option>
+            <option value="CheeseBurger">CheeseBurger</option>
+            <option value="Chicken-wrap">Chicken-wrap</option>
+            <option value="Cheesefries">Cheesefries</option>
+            <option value="hot-wings">Hot-wings</option>
+           </select>
+          </div>
+        </div>
+        <br>
+        <div>
+        <div class="left-side"> 
+          <label>Which of the menu Item would you like to get improved: </label>
+        </div>
+        <div class="right-side">
+          <ul class="liststyle1">
+            <li> <label><input type="checkbox" name="food" value="1">Tallgrass burger.</label><br></li>
+            <li > <label><input type="checkbox" name="food" value="2">Halal Double</label><br></li>
+            <li> <label><input type="checkbox" name="food" value="3">Chicken Wrap.</label><br></li>
+            <li> <label><input type="checkbox" name="food" value="5">The classic burger.</label><br></li>
+            <li> <label><input type="checkbox" name="food" value="6">Buffalo Wings.</label><br></li>
+            <li> <label><input type="checkbox" name="food" value="7">All American burger.</label><br></li>
+            <li> <label><input type="checkbox" name="food" value="8">The Fire rock burger.</label><br></li>
+            <li> <label ><input type="checkbox" name="food" value="4">Seasoned Curly Fries</label><br></li>
+            <li> <label><input type="checkbox" name="food" value="9">Garlic Fries.</label><br></li>
+          </ul>
+         </div>
+        </div>
+       <div>
+        <div class="left-side"> 
+          <label>Additional Comments:</label>
+        </div>
+        <div class="right-side">
+          <textarea rows="2" cols="25" placeholder="This is the default text"></textarea>
+         </div>
+        </div>
+      <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+
+  
+
+</body>
+
+</html>

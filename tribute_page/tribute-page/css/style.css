@@ -1,0 +1,47 @@
+
+body,html{
+  background-color: white;
+  font-family: Georgia, Helvetica, sans-serif;
+  font-size: 12pt;
+  
+}
+#main{
+  margin:40px auto;
+  padding:15px;
+  border:0px solid;
+  border-radius:5px;
+  background:#eef;
+  text-align: center;
+}
+#img-div{
+  margin-top: 20px;
+  margin: -5px;
+  text-align: center;
+  display: block;
+  border: 15px solid white;
+  background-color: white;
+}
+
+#image{
+  Display: block ;
+  max-width: 100%;
+  height:auto;
+}
+
+#image-caption{
+  margin: 3px;
+}
+
+#tribute-info{
+  margin-left: 450px;
+  margin-right: 400px;
+  text-align:left;
+}
+
+blockquote{
+  font-style: Italic;
+}
+
+#last_line{
+  text-align: center;
+}
